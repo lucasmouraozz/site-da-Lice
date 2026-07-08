@@ -10,7 +10,7 @@
 #logo {
   transition: opacity .3s ease, visibility .3s ease;
 }
-.logo .oculta {
+.logo.oculta {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -36,6 +36,10 @@
 }
 
 .menu {
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  z-index: 1000;
   display: flex;
   align-items: center;
   gap: 2.5rem;
@@ -43,7 +47,7 @@
 
 .menu a {
   position: relative;
-  color: var(--color-sufarce);
+  color: #163a70;
   font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -82,7 +86,20 @@
 
 @media (max-width: 910px) {
   .menu {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 135px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #F8fafc;
+    backdrop-filter: blur(12px);
+    transition: .4s ease;
+    z-index: 999;
   }
   .menu-mobile {
     display: flex;
@@ -90,11 +107,17 @@
     align-items: center;
     width: 45px;
     height: 45px;
+    background: transparent;
     border: none;
-    color: var(--color-sufarce);
+    color: #D4AF37;
     font-size: 2em;
     cursor: pointer;
+    z-index: 1000;
   }
+  .menu.ativo {
+    right: 0;
+  }
+
   .navbar {
     justify-content: space-between;
   }

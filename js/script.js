@@ -1,12 +1,14 @@
-const logo = document.getElementById('logo');
-const home = document.getElementById('home');
+const menu = document.querySelector(".menu");
+const botao = document.querySelector(".menu-mobile");
 
-window.addEventListener('scroll'), () => {
-  const limite = home.offsetHeight - 100;
+botao.addEventListener("click", () => {
+    menu.classList.toggle("ativo");
+});
 
-  if (window.scrollY > limite) {
-    logo.classList.add('oculta');
-  } else {
-    logo.classList.remove('oculta');
-  }
-}
+document.querySelectorAll(".menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("ativo");
+    });
+});
+
+
