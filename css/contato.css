@@ -23,6 +23,7 @@
 
 #contato {
   padding: 120px 0px;
+
 }
 
 .contato-container {
@@ -83,7 +84,5 @@
     flex-direction: column;
     text-align: justify;
   }
-  .redes {
-    align-items: center;
-  }
+
 }

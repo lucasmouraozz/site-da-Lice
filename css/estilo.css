@@ -22,8 +22,9 @@
 }
 
 #estilo {
-  padding: 120px 0px;
+  
   background: var(--color-sufarce);
+  padding-bottom: 40px;
 }
 
 .estilo-grid {

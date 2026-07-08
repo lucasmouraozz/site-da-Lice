@@ -30,12 +30,13 @@
                     Vicent Van Gogh
                 </a>
                 <ul class="menu">
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#artes">Minhas Artes</a></li>
                     <li><a href="#home">Início</a></li>
+                    <li><a href="#destaque">Obras</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#artes">Minhas Artes</a></li>
                     <li><a href="#estilo">Estilo</a></li>
-                    <li><a href="#contato">Contato</a></li>
                 </ul>
                 <button class="menu-mobile" aria-label="Abrir Menu">
                     ☰
@@ -45,7 +46,147 @@
     </header>
     <div class="menu-overlay"></div>
     <main>
+         <section id="contato">
+               <div class="container contato-container">
+
+        <div class="perfil">
+
+            <img src="imagens/foto.jpeg" alt="Foto de João Lucas">
+
+        </div>
+
+        <div class="contato-info">
+
+            <div class="section-title">
+
+                <span>SOBRE MIM</span>
+
+                <h2>Alice</h2>
+
+            </div>
+
+            <p>
+                Sejam bem-vindos! Me chamo Alice e a pintura é a minha forma favorita de ver e traduzir o mundo. Inspirada por grandes mestres e movida pela paixão pelas telas, convido vocês a conhecerem um pouco mais do meu trabalho.
+            </p>
+
+            <div class="redes">
+
+                <a href="#" class="rede"> <i class="fa-brands fa-instagram" style="color: rgb(177, 151, 252);"></i>  Instagram</a>
+
+                <a href="mailto:seuemail@email.com" class="rede">
+                    <i class="fa-brands fa-whatsapp" style="color: rgb(99, 230, 190);" ></i> WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        </section>
+
+         <section id="citacao">
+             <div class="container">
+
+        <blockquote>
+
+            "Sonho com a pintura e depois pinto o meu sonho."
+
+        </blockquote>
+
+        <cite>
+            — Vincent van Gogh
+        </cite>
+
+    </div>
+
+
+        </section>
+
+         <section id="artes">
+             <div class="container">
+
+        <div class="section-title">
+
+            <span>MINHAS ARTES</span>
+
+            <h2>Projetos Autorais</h2>
+
+        </div>
+
+        <div class="filtros">
+
+            <button class="ativo filtro">Todos</button>
+            <button class="filtro">Paisagens</button>
+            <button class="filtro">Retratos</button>
+            <button class="filtro">Digitais</button>
+
+        </div>
+
+        <div class="artes-grid">
+
+            <article class="arte">
+
+                <img src="imagens/foto2.jpeg" alt="Arte 1">
+
+                <div class="arte-info">
+
+                    <h3>Noite Estrelada</h3>
+
+                    <p>Inspirada em Van Gogh • 2026</p>
+
+                    <a href="#" class="btn btn-primary">
+                        Ver Projeto
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="arte">
+
+                <img src="./assets/img/arte2.jpg" alt="Arte 2">
+
+                <div class="arte-info">
+
+                    <h3>Retrato</h3>
+
+                    <p>Espaço disponível • 2026</p>
+
+                    <a href="#" class="btn btn-primary">
+                        Ver Projeto
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="arte">
+
+                <img src="./assets/img/arte3.jpg" alt="Arte 3">
+
+                <div class="arte-info">
+
+                    <h3>Montanhas</h3>
+
+                    <p>Espaço disponível</p>
+
+                    <a href="#" class="btn btn-primary">
+                        Ver Projeto
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
         <section id="home">
+
            <div class="home-imagem-fundo"></div>
     <div class="home-overlay"></div>
 
@@ -267,92 +408,10 @@
         </section>
 
         <!-- MODAL -->
-        <dialog id="modal-obra">
-
-        </dialog>
+       
 
         <!-- MINHAS ARTES -->
-        <section id="artes">
-             <div class="container">
-
-        <div class="section-title">
-
-            <span>MINHAS ARTES</span>
-
-            <h2>Projetos Autorais</h2>
-
-        </div>
-
-        <div class="filtros">
-
-            <button class="ativo filtro">Todos</button>
-            <button class="filtro">Paisagens</button>
-            <button class="filtro">Retratos</button>
-            <button class="filtro">Digitais</button>
-
-        </div>
-
-        <div class="artes-grid">
-
-            <article class="arte">
-
-                <img src="imagens/foto2.jpeg" alt="Arte 1">
-
-                <div class="arte-info">
-
-                    <h3>Noite Estrelada</h3>
-
-                    <p>Inspirada em Van Gogh • 2026</p>
-
-                    <a href="#" class="btn btn-primary">
-                        Ver Projeto
-                    </a>
-
-                </div>
-
-            </article>
-
-            <article class="arte">
-
-                <img src="./assets/img/arte2.jpg" alt="Arte 2">
-
-                <div class="arte-info">
-
-                    <h3>Retrato</h3>
-
-                    <p>Espaço disponível • 2026</p>
-
-                    <a href="#" class="btn btn-primary">
-                        Ver Projeto
-                    </a>
-
-                </div>
-
-            </article>
-
-            <article class="arte">
-
-                <img src="./assets/img/arte3.jpg" alt="Arte 3">
-
-                <div class="arte-info">
-
-                    <h3>Montanhas</h3>
-
-                    <p>Espaço disponível</p>
-
-                    <a href="#" class="btn btn-primary">
-                        Ver Projeto
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </div>
-
-        </section>
+        
 
         <!-- ESTILO E TÉCNICA -->
         <section id="estilo">
@@ -411,65 +470,7 @@
         </section>
 
         <!-- CITAÇÃO -->
-        <section id="citacao">
-             <div class="container">
-
-        <blockquote>
-
-            "Sonho com a pintura e depois pinto o meu sonho."
-
-        </blockquote>
-
-        <cite>
-            — Vincent van Gogh
-        </cite>
-
-    </div>
-
-
-        </section>
-
-        
-        <section id="contato">
-               <div class="container contato-container">
-
-        <div class="perfil">
-
-            <img src="imagens/foto.jpeg" alt="Foto de João Lucas">
-
-        </div>
-
-        <div class="contato-info">
-
-            <div class="section-title">
-
-                <span>SOBRE MIM</span>
-
-                <h2>Alice</h2>
-
-            </div>
-
-            <p>
-                Sejam bem-vindos! Me chamo Alice e a pintura é a minha forma favorita de ver e traduzir o mundo. Inspirada por grandes mestres e movida pela paixão pelas telas, convido vocês a conhecerem um pouco mais do meu trabalho.
-            </p>
-
-            <div class="redes">
-
-                <a href="#" class="rede"> <i class="fa-brands fa-instagram" style="color: rgb(177, 151, 252);"></i>  Instagram</a>
-
-                <a href="mailto:seuemail@email.com" class="rede">
-                    <i class="fa-brands fa-whatsapp" style="color: rgb(99, 230, 190);" ></i> WhatsApp
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-        </section>
-
+    
     </main>
 
     <!-- ================= FOOTER ================= -->

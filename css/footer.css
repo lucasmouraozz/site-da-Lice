@@ -22,6 +22,7 @@
 }
 
 #footer {
+  margin: -100px;
   background: var(--color-primary);
   color: var(--color-sufarce);
   padding: 5rem 0 2rem;

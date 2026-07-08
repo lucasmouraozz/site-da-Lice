@@ -22,6 +22,7 @@
 }
 
 #galeria {
+ margin-top: -80px;
  background: var(--color-sufarce);
 }
 
