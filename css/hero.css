@@ -8,15 +8,6 @@
   overflow: hidden;
 }
 
-.home-imagem-fundo {
-  position: absolute;
-  inset: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -2;
-  background-size: cover;
-}
-
 .home-overlay {
   position: absolute;
   inset: 0;
