@@ -1,0 +1,108 @@
+:root {
+  --color-primary: #0D2346;
+  --color-secundary: #D4AF37;
+
+  --color-background: #F8F4E8;
+  --color-sufarce: #FFFFFF;
+  --color-header: rgba(13, 35, 70, 0.85);
+
+  --color-text: #2B2B2B;
+  --color-text-light: #666666;
+
+  --font-title: 'Cormorant Garamond', serif;
+  --font-text: 'Poppins', sans-serif;
+
+  --container: 1200px;
+
+  --shadow-sm: 0px 2px 8px rgba(0,0,0,.08);
+  --shadow-md: 0px 8px 25px rgba(0,0,0,.15);
+
+  --trasition: .35s ease;
+  --radius: 16px;
+}
+
+#destaque {
+  background-color: var(--color-sufarce);
+  padding: 120px 0px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title span {
+  color: var(--color-secundary);
+  letter-spacing: 4px;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.section-title h2 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+
+
+.destaque-card {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.destaque-imagem {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.destaque-imagem img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+  transition: .5s ease;
+}
+
+.destaque-imagem:hover img {
+  transform: scale(1.05);
+}
+
+.destaque-info {
+  flex: 1;
+}
+
+.destaque-info h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.destaque-info p {
+  margin-bottom: 2rem;
+  line-height: 1.9;
+  text-align: justify;
+  color: var(--color-primary);
+}
+
+.ano {
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 50px;
+  padding: 8px 18px;
+  background: rgba(201,162,39,.15);
+  color: var(--color-secundary);
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .destaque-card {
+    flex-direction: column;
+  }
+  .destaque-info {
+    text-align: center;
+  }
+
+}
+

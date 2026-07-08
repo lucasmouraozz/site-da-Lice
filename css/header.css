@@ -67,3 +67,23 @@
   cursor: pointer;
 }
 
+@media (max-width: 910px) {
+  .menu {
+    display: none;
+  }
+  .menu-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    color: var(--color-sufarce);
+    font-size: 2em;
+    cursor: pointer;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
