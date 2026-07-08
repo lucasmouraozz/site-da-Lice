@@ -33,6 +33,13 @@
   flex-wrap: wrap;
 }
 
+.filtro {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 .filtros button {
   padding: 12px 22px;
   border: none;
