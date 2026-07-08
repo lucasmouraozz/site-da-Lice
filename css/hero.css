@@ -18,7 +18,7 @@
 .home-imagem-fundo {
   position: absolute;
   inset: 0;
-  background-image: url(../imagens/noite-estrelada.jpg);
+  background: url(../imagens/noite-estrelada.jpg);
   background-position: center;
   background-repeat: no-repeat;
   z-index: -2;
