@@ -1,10 +1,19 @@
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
   transition: var(--trasition);
+}
+
+#logo {
+  transition: opacity .3s ease, visibility .3s ease;
+}
+.logo .oculta {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .navbar {
@@ -61,6 +70,10 @@
 }
 
 .menu-mobile {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
   display: none;
   font-size: 2rem;
   color: var(--color-sufarce);
