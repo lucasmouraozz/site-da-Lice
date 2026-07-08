@@ -1,0 +1,67 @@
+:root {
+  --color-primary: #0D2346;
+  --color-secundary: #D4AF37;
+
+  --color-background: #F8F4E8;
+  --color-sufarce: #FFFFFF;
+  --color-header: rgba(13, 35, 70, 0.85);
+
+  --color-text: #2B2B2B;
+  --color-text-light: #666666;
+
+  --font-title: 'Cormorant Garamond', serif;
+  --font-text: 'Poppins', sans-serif;
+
+  --container: 1200px;
+
+  --shadow-sm: 0px 2px 8px rgba(0,0,0,.08);
+  --shadow-md: 0px 8px 25px rgba(0,0,0,.15);
+
+  --trasition: .35s ease;
+  --radius: 16px;
+}
+
+#estilo {
+  padding: 120px 0px;
+  background: var(--color-sufarce);
+}
+
+.estilo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.estilo-card {
+  background-color: var(--color-sufarce);
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: justify;
+  box-shadow: var(--shadow-md);
+  transition: .35s;
+}
+
+.estilo-card:hover {
+  transform: translateY(-10px);
+}
+
+.estilo-card .icone {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.estilo-card h3 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.estilo-card p {
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .estilo-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,81 @@
+:root {
+  --color-primary: #0D2346;
+  --color-secundary: #D4AF37;
+
+  --color-background: #F8F4E8;
+  --color-sufarce: #FFFFFF;
+  --color-header: rgba(13, 35, 70, 0.85);
+
+  --color-text: #2B2B2B;
+  --color-text-light: #666666;
+
+  --font-title: 'Cormorant Garamond', serif;
+  --font-text: 'Poppins', sans-serif;
+
+  --container: 1200px;
+
+  --shadow-sm: 0px 2px 8px rgba(0,0,0,.08);
+  --shadow-md: 0px 8px 25px rgba(0,0,0,.15);
+
+  --trasition: .35s ease;
+  --radius: 16px;
+}
+
+#footer {
+  background: var(--color-primary);
+  color: var(--color-sufarce);
+  padding: 5rem 0 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.8rem;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-texto {
+  max-width: 500px;
+  line-height: 1.8;
+  opacity: .8;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-nav a {
+  color: var(--color-sufarce);
+  transition: .3s;
+  position: relative;
+}
+
+.footer-nav a:hover {
+  color: var(--color-secundary);
+}
+
+.footer-copy {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255, .15);
+  text-align: center;
+  opacity: .8;
+}
+
+strong.nome {
+  color: var(--color-secundary);
+}
+
+strong.nome:hover {
+  color: var(--color-background);
+}
+

@@ -1,0 +1,89 @@
+:root {
+  --color-primary: #0D2346;
+  --color-secundary: #D4AF37;
+
+  --color-background: #F8F4E8;
+  --color-sufarce: #FFFFFF;
+  --color-header: rgba(13, 35, 70, 0.85);
+
+  --color-text: #2B2B2B;
+  --color-text-light: #666666;
+
+  --font-title: 'Cormorant Garamond', serif;
+  --font-text: 'Poppins', sans-serif;
+
+  --container: 1200px;
+
+  --shadow-sm: 0px 2px 8px rgba(0,0,0,.08);
+  --shadow-md: 0px 8px 25px rgba(0,0,0,.15);
+
+  --trasition: .35s ease;
+  --radius: 16px;
+}
+
+#contato {
+  padding: 120px 0px;
+}
+
+.contato-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.perfil {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.perfil img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--shadow-sm);
+}
+
+.contato-info {
+  flex: 2;
+}
+
+.contato-info p {
+  margin: 2rem 0;
+  line-height: 1.9;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rede {
+  display: inline-flex;
+  align-items: center;
+  gap: .8rem;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.rede:hover {
+  color: var(--color-secundary);
+  transform: translateY(8px);
+}
+
+.redes i {
+  font-size: 1.7rem;
+  margin: 16px;
+}
+
+@media (max-width: 900px) {
+  .contato-container {
+    flex-direction: column;
+    text-align: justify;
+  }
+  .redes {
+    align-items: center;
+  }
+}
