@@ -39,8 +39,8 @@
 }
 
 .perfil img {
-  width: 320px;
-  height: 320px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: var(--shadow-sm);
